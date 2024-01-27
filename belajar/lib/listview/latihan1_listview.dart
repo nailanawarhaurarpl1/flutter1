@@ -54,7 +54,7 @@ class LatihanSatuListView extends StatelessWidget {
               ),
             ),
           ),
-        ],
+        ], 
       ),
     );
   }

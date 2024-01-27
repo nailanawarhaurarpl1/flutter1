@@ -1,4 +1,10 @@
 import 'package:belajar/container_widget.dart';
+import 'package:belajar/gridview/grid_basic.dart';
+import 'package:belajar/gridview/grid_build.dart';
+import 'package:belajar/gridview/grid_count.dart';
+import 'package:belajar/gridview/grid_fullscreen.dart';
+import 'package:belajar/gridview/grid_kecil.dart';
+import 'package:belajar/gridview/latihan1_grid.dart';
 import 'package:belajar/latihan1_rowcolumn.dart';
 import 'package:belajar/latihan2_containerrow.dart';
 import 'package:belajar/latihan3_containercolumn.dart';
@@ -28,7 +34,7 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.amber,
             title: Text("Belajar Flutter"),
         ),
-        body: LatihanSatuListView(),
+        body: latihangrid(),
       ),
       );  
     }
